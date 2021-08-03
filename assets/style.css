@@ -214,3 +214,26 @@ footer {
     bottom: 0;
     right: 0;
 }
+
+/* Responsive web design */
+@media screen and (max-width: 992px) {
+    header {
+        background-color: orange;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        background-color: rgb(46, 130, 158);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    figure {
+        background-color: var(--blue);
+    }
+
+    .small-tile {
+        width: 100%;
+    }
+}
